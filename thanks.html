@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./favicons/bil.png">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
 
         <header class="center">
             <div>
-                <img src="./img/bil.png"></img>
+                <img src="./img/jow.png"></img>
             </div>
             <h1>Obrigado(a) pelo seu contato!</h1>
             <p>Retornarei em breve! :)</p>
@@ -35,7 +36,7 @@
     </div>
 
     <script>
-        fetch('https://api.github.com/repos/jowcodesoftware/ansel/contents/thanks.html')
+        fetch('https://api.github.com/repos/jowcodesoftware/website/thanks.html')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
